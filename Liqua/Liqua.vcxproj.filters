@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8824b4be-0130-415b-963c-3072fae8c7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{b900112f-1de4-4cb8-b7ba-5159824dabb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Modelloader">
+      <UniqueIdentifier>{d58fc7b9-b979-4cb0-a1f1-7da092728ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{3bf60848-368b-4f79-816f-8ffd01a184ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{48e24733-9f8d-4d9c-8d9c-3a8d2dba9bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{5ddb70dc-1f42-43f5-9430-bb64f86e0932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ParticleSystem">
+      <UniqueIdentifier>{c459972c-ef24-4476-ba65-207490f1d3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\FlockingSystem">
+      <UniqueIdentifier>{b51d2206-ea85-4651-aadc-790ac19998c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Liqua.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shader.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FaceGroup.h">
+      <Filter>Utility\Modelloader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mesh.h">
+      <Filter>Utility\Modelloader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Material.h">
+      <Filter>Utility\Modelloader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\RenderTarget.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Caustics.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Light.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Shaft.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WaterSurface.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParticleSystem.h">
+      <Filter>Scene\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MathHelper.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sky.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Fish.h">
+      <Filter>Scene\FlockingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\School.h">
+      <Filter>Scene\FlockingSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FaceGroup.cpp">
+      <Filter>Utility\Modelloader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Utility\Modelloader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Material.cpp">
+      <Filter>Utility\Modelloader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RenderTarget.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Caustics.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Light.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaft.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\WaterSurface.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystem.cpp">
+      <Filter>Scene\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MathHelper.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sky.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fish.cpp">
+      <Filter>Scene\FlockingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\School.cpp">
+      <Filter>Scene\FlockingSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\Resources\Shaders\RTT.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\RTT.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Caustics.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Caustics.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\ClearColor.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\ClearColor.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\DoF.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\DoF.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Particle.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Particle.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Shaft.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Shaft.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\WaterSurface.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\WaterSurface.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Sky.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\bin\Resources\Shaders\Sky.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
