@@ -5,3 +5,5 @@ My aim with this project was to establish a framework with various underwater ph
 Everything is made from scratch, the framework is made with modern OpenGL in mind and tries to note make use of any deprecated functionality.
 
 Models credit goes to Robert van Duursen. (http://www.robertvanduursen.com/)
+
+For the project to compile, change the working directory to: $(SolutionDir)\bin\$(Configuration) 
